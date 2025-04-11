@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment ajouter votre photo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #3498db;
+        }
+        .step {
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #3498db;
+        }
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        .note {
+            background-color: #e6f3ff;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        img {
+            max-width: 100%;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Comment ajouter votre photo au CV - Méthode Simple</h1>
+    
+    <div class="note">
+        <p>Nous avons créé une solution temporaire pour afficher vos initiales sur votre CV. Voici comment ajouter votre vraie photo si vous le souhaitez.</p>
+    </div>
+    
+    <div class="step">
+        <h2>Étape 1: Modifiez directement le code HTML</h2>
+        <p>Ouvrez le fichier <code>index.html</code> dans un éditeur de texte (comme Notepad ou Visual Studio Code)</p>
+    </div>
+    
+    <div class="step">
+        <h2>Étape 2: Trouvez la section de l'image</h2>
+        <p>Cherchez cette partie du code (vers la ligne 30):</p>
+        <pre><code>&lt;div class="profile-image"&gt;
+    &lt;img src="https://ui-avatars.com/api/?name=Amal+Chalhi&background=e6f3ff&color=3498db&size=140&bold=true&font-size=0.4" alt="Amal Chalhi"&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+    
+    <div class="step">
+        <h2>Étape 3: Remplacez par votre photo</h2>
+        <p>Si vous avez accès à un service d'hébergement d'images (comme Google Drive, Dropbox ou Github), téléchargez votre photo et obtenez un lien direct vers l'image.</p>
+        <p>Ensuite, remplacez le code par:</p>
+        <pre><code>&lt;div class="profile-image"&gt;
+    &lt;img src="VOTRE_LIEN_DIRECT_VERS_L_IMAGE" alt="Amal Chalhi"&gt;
+&lt;/div&gt;</code></pre>
+        <p>Remplacez <code>VOTRE_LIEN_DIRECT_VERS_L_IMAGE</code> par l'URL de votre image.</p>
+    </div>
+    
+    <div class="note">
+        <p><strong>Note:</strong> Si vous n'avez pas de lien d'image en ligne, vous pouvez:</p>
+        <ul>
+            <li>Utiliser un service comme <a href="https://imgbb.com/" target="_blank">ImgBB</a> pour télécharger gratuitement votre photo</li>
+            <li>Ou garder la version actuelle avec vos initiales qui est également professionnelle</li>
+        </ul>
+    </div>
+    
+    <p><a href="index.html">Retour au CV</a></p>
+</body>
+</html> 
